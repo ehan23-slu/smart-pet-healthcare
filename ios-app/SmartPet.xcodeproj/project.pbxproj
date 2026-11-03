@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64473AB93094787500908396 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 64473AB83094787500908396 /* FirebaseCore */; };
+		64473ABB3094788100908396 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 64473ABA3094788100908396 /* FirebaseFirestore */; };
+		64473ABD30947D3F00908396 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 64473ABC30947D3F00908396 /* FirebaseAuth */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64EAEAFD2DF90838004F43CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64EAEAE72DF90836004F43CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EAEAEE2DF90836004F43CE;
+			remoteInfo = SmartPet;
+		};
+		64EAEB072DF90838004F43CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64EAEAE72DF90836004F43CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64EAEAEE2DF90836004F43CE;
+			remoteInfo = SmartPet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64EAEB682DF90FFB004F43CE /* SmartPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EAEB692DF90FFB004F43CE /* SmartPetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EAEB6A2DF90FFB004F43CE /* SmartPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		64473AB1309453E200908396 /* Exceptions for "SmartPet" folder in "SmartPet" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 64EAEAEE2DF90836004F43CE /* SmartPet */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		64EAEAF12DF90836004F43CE /* SmartPet */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				64473AB1309453E200908396 /* Exceptions for "SmartPet" folder in "SmartPet" target */,
+			);
+			path = SmartPet;
+			sourceTree = "<group>";
+		};
+		64EAEAFF2DF90838004F43CE /* SmartPetTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartPetTests;
+			sourceTree = "<group>";
+		};
+		64EAEB092DF90838004F43CE /* SmartPetUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SmartPetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64EAEAEC2DF90836004F43CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64473AB93094787500908396 /* FirebaseCore in Frameworks */,
+				64473ABD30947D3F00908396 /* FirebaseAuth in Frameworks */,
+				64473ABB3094788100908396 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEAF92DF90838004F43CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEB032DF90838004F43CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64473AB73094787500908396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64EAEAE62DF90836004F43CE = {
+			isa = PBXGroup;
+			children = (
+				64EAEAF12DF90836004F43CE /* SmartPet */,
+				64EAEAFF2DF90838004F43CE /* SmartPetTests */,
+				64EAEB092DF90838004F43CE /* SmartPetUITests */,
+				64EAEB682DF90FFB004F43CE /* SmartPet.app */,
+				64EAEB692DF90FFB004F43CE /* SmartPetTests.xctest */,
+				64EAEB6A2DF90FFB004F43CE /* SmartPetUITests.xctest */,
+				64473AB73094787500908396 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64EAEAEE2DF90836004F43CE /* SmartPet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EAEB102DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPet" */;
+			buildPhases = (
+				64EAEAEB2DF90836004F43CE /* Sources */,
+				64EAEAEC2DF90836004F43CE /* Frameworks */,
+				64EAEAED2DF90836004F43CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				64EAEAF12DF90836004F43CE /* SmartPet */,
+			);
+			name = SmartPet;
+			packageProductDependencies = (
+				64473AB83094787500908396 /* FirebaseCore */,
+				64473ABA3094788100908396 /* FirebaseFirestore */,
+				64473ABC30947D3F00908396 /* FirebaseAuth */,
+			);
+			productName = SmartPet;
+			productReference = 64EAEB682DF90FFB004F43CE /* SmartPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64EAEAFB2DF90838004F43CE /* SmartPetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EAEB132DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPetTests" */;
+			buildPhases = (
+				64EAEAF82DF90838004F43CE /* Sources */,
+				64EAEAF92DF90838004F43CE /* Frameworks */,
+				64EAEAFA2DF90838004F43CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64EAEAFE2DF90838004F43CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				64EAEAFF2DF90838004F43CE /* SmartPetTests */,
+			);
+			name = SmartPetTests;
+			packageProductDependencies = (
+			);
+			productName = SmartPetTests;
+			productReference = 64EAEB692DF90FFB004F43CE /* SmartPetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64EAEB052DF90838004F43CE /* SmartPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64EAEB162DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPetUITests" */;
+			buildPhases = (
+				64EAEB022DF90838004F43CE /* Sources */,
+				64EAEB032DF90838004F43CE /* Frameworks */,
+				64EAEB042DF90838004F43CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64EAEB082DF90838004F43CE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				64EAEB092DF90838004F43CE /* SmartPetUITests */,
+			);
+			name = SmartPetUITests;
+			packageProductDependencies = (
+			);
+			productName = SmartPetUITests;
+			productReference = 64EAEB6A2DF90FFB004F43CE /* SmartPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64EAEAE72DF90836004F43CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					64EAEAEE2DF90836004F43CE = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					64EAEAFB2DF90838004F43CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 64EAEAEE2DF90836004F43CE;
+					};
+					64EAEB052DF90838004F43CE = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 64EAEAEE2DF90836004F43CE;
+					};
+				};
+			};
+			buildConfigurationList = 64EAEAEA2DF90836004F43CE /* Build configuration list for PBXProject "SmartPet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64EAEAE62DF90836004F43CE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64473AB63094772200908396 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64EAEAE62DF90836004F43CE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64EAEAEE2DF90836004F43CE /* SmartPet */,
+				64EAEAFB2DF90838004F43CE /* SmartPetTests */,
+				64EAEB052DF90838004F43CE /* SmartPetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64EAEAED2DF90836004F43CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEAFA2DF90838004F43CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEB042DF90838004F43CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64EAEAEB2DF90836004F43CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEAF82DF90838004F43CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64EAEB022DF90838004F43CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64EAEAFE2DF90838004F43CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64EAEAEE2DF90836004F43CE /* SmartPet */;
+			targetProxy = 64EAEAFD2DF90838004F43CE /* PBXContainerItemProxy */;
+		};
+		64EAEB082DF90838004F43CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64EAEAEE2DF90836004F43CE /* SmartPet */;
+			targetProxy = 64EAEB072DF90838004F43CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		64EAEB0E2DF90838004F43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64EAEB0F2DF90838004F43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64EAEB112DF90838004F43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartPet/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to receive heart rate, SpO2, and temperature measurements from a Raspberry Pi Pico.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64EAEB122DF90838004F43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartPet/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to receive heart rate, SpO2, and temperature measurements from a Raspberry Pi Pico.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64EAEB142DF90838004F43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartPet";
+			};
+			name = Debug;
+		};
+		64EAEB152DF90838004F43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartPet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SmartPet";
+			};
+			name = Release;
+		};
+		64EAEB172DF90838004F43CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartPet;
+			};
+			name = Debug;
+		};
+		64EAEB182DF90838004F43CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9MNA9D59MW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EH.SmartPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartPet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64EAEAEA2DF90836004F43CE /* Build configuration list for PBXProject "SmartPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EAEB0E2DF90838004F43CE /* Debug */,
+				64EAEB0F2DF90838004F43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EAEB102DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EAEB112DF90838004F43CE /* Debug */,
+				64EAEB122DF90838004F43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EAEB132DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EAEB142DF90838004F43CE /* Debug */,
+				64EAEB152DF90838004F43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64EAEB162DF90838004F43CE /* Build configuration list for PBXNativeTarget "SmartPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64EAEB172DF90838004F43CE /* Debug */,
+				64EAEB182DF90838004F43CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64473AB63094772200908396 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64473AB83094787500908396 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64473AB63094772200908396 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		64473ABA3094788100908396 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64473AB63094772200908396 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		64473ABC30947D3F00908396 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64473AB63094772200908396 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 64EAEAE72DF90836004F43CE /* Project object */;
+}
